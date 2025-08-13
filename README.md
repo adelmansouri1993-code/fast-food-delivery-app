@@ -29,3 +29,17 @@
 cd backend
 npm install
 npm start
+http://localhost:4000
+cd frontend
+npm install
+npm start
+http://localhost:3000
+fast_food_delivery_app/
+│── backend/         # خادم Node.js
+│   ├── routes/      # المسارات
+│   ├── models/      # نماذج البيانات
+│   ├── server.js    # نقطة تشغيل الخادم
+│── frontend/        # تطبيق React
+│   ├── src/components/ # المكونات
+│   ├── src/pages/       # الصفحات
+│   ├── App.js           # نقطة تشغيل الواجهة الأمامية
